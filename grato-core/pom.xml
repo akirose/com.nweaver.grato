@@ -1,0 +1,88 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.nweaver</groupId>
+		<artifactId>grato</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	<artifactId>grato-core</artifactId>
+	<packaging>jar</packaging>
+	<name>Grato core library</name>
+	
+	<dependencies>
+		<!-- Apache Mina -->
+		<dependency>
+			<groupId>org.apache.mina</groupId>
+			<artifactId>mina-core</artifactId>
+			<version>2.0.7</version>
+			<type>jar</type>
+		</dependency>
+		<!-- dependency>
+		    <groupId>org.apache.mina</groupId>
+		    <artifactId>mina-integration-beans</artifactId>
+		    <version>2.0.7</version>
+		    <type>jar</type>
+			<exclusions>
+				<exclusion>
+					<groupId>org.apache.mina</groupId>
+					<artifactId>mina-core</artifactId>
+				</exclusion>
+			</exclusions>
+			<scope>optional</scope>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.mina</groupId>
+		    <artifactId>mina-integration-ognl</artifactId>
+		    <version>2.0.7</version>
+		    <type>jar</type>
+		    <exclusions>
+		        <exclusion>
+		            <groupId>org.apache.mina</groupId>
+		            <artifactId>mina-core</artifactId>
+		        </exclusion>
+		        <exclusion>
+		            <groupId>org.apache.mina</groupId>
+		            <artifactId>mina-integration-beans</artifactId>
+		        </exclusion>
+		        <exclusion>
+		            <groupId>javassist</groupId>
+		            <artifactId>javassist</artifactId>
+		        </exclusion>
+		    </exclusions>
+		    <scope>optional</scope>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.mina</groupId>
+		    <artifactId>mina-integration-jmx</artifactId>
+		    <version>2.0.7</version>
+		    <type>jar</type>
+		    <exclusions>
+		        <exclusion>
+		            <groupId>org.apache.mina</groupId>
+		            <artifactId>mina-core</artifactId>
+		        </exclusion>
+		        <exclusion>
+		            <groupId>org.apache.mina</groupId>
+		            <artifactId>mina-integration-beans</artifactId>
+		        </exclusion>
+		        <exclusion>
+		            <groupId>org.apache.mina</groupId>
+		            <artifactId>mina-integration-ognl</artifactId>
+		        </exclusion>
+		    </exclusions>
+		    <scope>optional</scope>
+		</dependency -->
+	</dependencies>
+	
+	<build>
+	    <plugins>
+	        <plugin>
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-jar-plugin</artifactId>
+	            <configuration>
+	            </configuration>
+	        </plugin>
+	    </plugins>
+	</build>
+</project>
