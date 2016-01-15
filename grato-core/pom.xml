@@ -3,13 +3,13 @@
 	<parent>
 		<groupId>com.nweaver</groupId>
 		<artifactId>grato</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
+		<version>0.9.0</version>
 	</parent>
 	<artifactId>grato-core</artifactId>
 	<packaging>jar</packaging>
-	<name>Grato core library</name>
-	
+	<name>Grato core</name>
+
 	<dependencies>
 		<!-- Apache Mina -->
 		<dependency>
@@ -74,15 +74,4 @@
 		    <scope>optional</scope>
 		</dependency -->
 	</dependencies>
-	
-	<build>
-	    <plugins>
-	        <plugin>
-	            <groupId>org.apache.maven.plugins</groupId>
-	            <artifactId>maven-jar-plugin</artifactId>
-	            <configuration>
-	            </configuration>
-	        </plugin>
-	    </plugins>
-	</build>
 </project>
